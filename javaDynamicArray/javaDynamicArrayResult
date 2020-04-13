@@ -1,0 +1,81 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/bariskbayram/idea-IU-193.6015.39/lib/idea_rt.jar=34409:/home/bariskbayram/idea-IU-193.6015.39/bin -Dfile.encoding=UTF-8 -classpath "/home/bariskbayram/Desktop/Analysis of Algorithms/javaDynamicArray/out/production/javaDynamicArray" com.bkb.Main
+Başlangıç durumu!
+getLength: 0  getSize: 1
+
+3 elemanı eklendi.
+Elemanlar: 3 
+getLength: 1  getSize: 1
+
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+2 elemanı eklendi.
+Elemanlar: 3 2 
+getLength: 2  getSize: 2
+
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+5 elemanı eklendi.
+Elemanlar: 3 2 5 null 
+getLength: 3  getSize: 4
+
+2 elemanı eklendi.
+Elemanlar: 3 2 5 2 
+getLength: 4  getSize: 4
+
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+BKB elemanı eklendi.
+Elemanlar: 3 2 5 2 BKB null null null 
+getLength: 5  getSize: 8
+
+44 elemanı eklendi.
+Elemanlar: 3 2 5 2 BKB 44 null null 
+getLength: 6  getSize: 8
+
+Remove süreci başlıyor...
+
+2 elemanı çıkarıldı.
+Elemanlar: 3 2 5 BKB 44 null null null 
+getLength: 5  getSize: 8
+
+3 elemanı çıkarıldı.
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Elemanlar: 2 5 BKB 44 
+getLength: 4  getSize: 4
+
+2 elemanı çıkarıldı.
+Elemanlar: 5 BKB 44 null 
+getLength: 3  getSize: 4
+
+İstenilen nesne mevcut değildir.
+(Elemanın var olmaması durumu bilerek test edilmiştir.)
+Elemanlar: 5 BKB 44 null 
+getLength: 3  getSize: 4
+
+5 elemanı çıkarıldı.
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Elemanlar: BKB 44 
+getLength: 2  getSize: 2
+
+BKB elemanı çıkarıldı.
+Amortized cost işlemi gerçekleşiyor...
+Move işlemi gerçekleşiyor...
+Elemanlar: 44 
+getLength: 1  getSize: 1
+
+44 elemanı çıkarıldı.
+Elemanlar: null 
+getLength: 0  getSize: 1
+
+
+Process finished with exit code 0
